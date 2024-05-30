@@ -1,0 +1,83 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Bree Serif;
+}
+
+.app-store-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.app-store-heading {
+  font-size: 30px;
+  font-family: bree serif;
+}
+
+.app-store-search-input-container {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+.app-store-search-input {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  outline: none;
+}
+.app-store-search-icon {
+  width: 30px;
+  border: none;
+}
+.app-store-tabsList-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: transparent;
+}
+.app-store-appsList-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Medias */
+
+@media (min-width: 768px) {
+  .app-store-container {
+    padding: 60px;
+  }
+
+  .app-store-heading {
+    font-size: 50px;
+  }
+
+  .app-store-search-input-container {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 10px;
+    width: 80vw;
+  }
+  .app-store-search-input {
+    font-size: 30px;
+  }
+  .app-store-search-icon {
+    width: 40px;
+  }
+
+}

@@ -1,0 +1,47 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+.appItem-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  margin: 10px;
+  width: 30vw;
+  height: 35vw;
+  text-align: center;
+}
+
+.appItem-image {
+  width: 100px;
+}
+
+.appItem-description {
+  font-size: 20px;
+  font-family: bree serif;
+}
+
+@media (min-width: 768px) {
+  .appItem-container {
+    padding: 30px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 20vw;
+    height: 25vw;
+  }
+
+  .appItem-image {
+    width: 150px;
+  }
+
+  .appItem-description {
+    font-size: 30px;
+    font-family: bree serif;
+  }
+}
